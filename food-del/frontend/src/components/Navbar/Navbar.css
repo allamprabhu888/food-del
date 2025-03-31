@@ -6,14 +6,19 @@
 }
 
 .navbar .logo {
-    width: 150px;
+    .navbar .logo {
+        font-size: 40px; /* Increase the font size */
+        font-weight: bold; /* Make it bold */
+        color: #c25815; /* Adjust color if needed */
+    }
+    
 }
 
 .navbar-menu {
     display: flex;
     list-style: none;
     gap: 20px;
-    color: #49557E;
+    color: #000000;
     font-size: 18px;
 }
 
@@ -54,7 +59,7 @@ position: relative;
 }
 
 .navbar-right button:hover {
-    background: #fff4f2;
+    background: #a05648;
 }
 
 .navbar-profile{
